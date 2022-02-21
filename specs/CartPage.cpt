@@ -1,0 +1,17 @@
+# SAYFA KONTROL EDİLİYOR
+*Şuanki URL "https://www.dr.com.tr/login?returnUrl=%2Fsepetim" değerini içeriyor mu kontrol et
+*"UYE GIRIS ALANI" alanında " ÜYE GİRİŞİ " elementi görünüyor mu?
+
+#ADRES SAYFASINDA DEVAM ET BUTONUNA TIKLANIYOR
+*"DEVAM ET BUTONU" elementine tıklama
+
+#SATIN ALMA SAYFASI KONTROL EDİLİYOR
+*Şuanki URL "https://www.dr.com.tr/odeme-secim" değerini içeriyor mu kontrol et
+*"ODEME ALANI" alanında " Ödeme " elementi görünüyor mu?
+
+#SEPETTEKİ ÜRÜN SAYISI ARTTIRILIYOR
+*"URUN SAYI ARTTIRMA" elementine tıklama
+* "1" saniye kadar bekle
+
+#ÜRÜN SAYISI ARTIŞI KONTROL EDİLİYOR
+*"URUN SAYISI" alanında "2" elementi görünüyor mu?

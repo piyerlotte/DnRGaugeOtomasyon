@@ -1,0 +1,390 @@
+[
+  {
+    "key": "ANA SAYFA GIRIS YAP BUTONU",
+    "value": "(//span[@class='font-weight-bold'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "ARAMA BUTONU",
+    "value": "[class='search-input col-12 py-10 px-40 px-lg-50']",
+    "type": "css"
+  },
+  {
+    "key": "ANA SAYFA GIRIS YAP POPUP BUTONU",
+    "value": "(//a[@data-action='Üye Girişi'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ANA SAYFA UYE OL BUTONU",
+    "value": "(//a[@data-action='Üye Ol'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "D&R YAZISI",
+    "value": "(//div[@class='footer-menu-title font-weight-bold pb-10 text-c10'])[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "MAIL ALANI",
+    "value": "[type='email']",
+    "type": "css"
+  },
+  {
+    "key": "SIFRE ALANI",
+    "value": "[name='password']",
+    "type": "css"
+  },
+  {
+    "key": "HESABIM",
+    "value": "(//span[@class='font-weight-bold'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "HATA MESAJI",
+    "value": "swal2-content",
+    "type": "id"
+  },
+  {
+    "key": "GIRIS SAYFASI GIRIS YAP BUTONU",
+    "value": "[class='button radius-4 text-center py-10 bg-c2 text-c255 fs-4 my-5']",
+    "type": "css"
+  },
+  {
+    "key": "URUN BASLIGI",
+    "value": "[class='facet__products-title']",
+    "type": "css"
+  },
+  {
+    "key": "HATA BASLIGI",
+    "value": "[class='w-100 text-center']",
+    "type": "css"
+  },
+  {
+    "key": "URUN LISTESI",
+    "value": "//div[@class='prd-wrapper']",
+    "type": "xpath"
+  },
+  {
+    "key": "URUN DETAY",
+    "value": "(//div[@class='author'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "SEPETE EKLE",
+    "value": "[class='bg-c2 d-block col-sm-8 col-lg-6 py-10 btn text-c255 text-center font-weight-bold fs-5 js-add-basket']",
+    "type": "css"
+  },
+  {
+    "key": "SEPETE EKLEME MESAJI",
+    "value": "[class='font-weight-bold fs-5 text-success text-center js-popup-title']",
+    "type": "css"
+  },
+  {
+    "key": "SEPETE GIT",
+    "value": "[class='btn bg-c2 text-c255 font-weight-bold p-10 text-center']",
+    "type": "css"
+  },
+  {
+    "key": "SEPET BASLIGI",
+    "value": "[class='col-12 subHeader']",
+    "type": "css"
+  },
+  {
+    "key": "SATIN AL",
+    "value": "checkout",
+    "type": "id"
+  },
+  {
+    "key": "ADRES ALANI",
+    "value": "[class='pageHeader']",
+    "type": "css"
+  },
+  {
+    "key": "UYE GIRIS ALANI",
+    "value": "[class='font-weight-bold text-c9']",
+    "type": "css"
+  },
+  {
+    "key": "DEVAM ET BUTONU",
+    "value": "[class='actionBtn btnAddressContinue']",
+    "type": "css"
+  },
+  {
+    "key": "ODEME ALANI",
+    "value": "[class='pageHeader']",
+    "type": "css"
+  },
+  {
+    "key": "URUN SAYI ARTTIRMA",
+    "value": "[class='number-plus']",
+    "type": "css"
+  },
+  {
+    "key": "URUN SAYISI",
+    "value": "(//span[@class='cart-count dr-flex bg-c2 text-c255 js-shopping-cart-count'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "UYE OL BUTONU",
+    "value": "(//a[@data-action='Üye Ol'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "UYE OL ALANI",
+    "value": "[class='font-weight-bold text-c9']",
+    "type": "css"
+  },
+  {
+    "key": "UYE OL POPUP BUTONU",
+    "value": "[class='button radius-4 text-center py-10 bg-c2 text-c255 fs-4 my-5']",
+    "type": "css"
+  },
+  {
+    "key": "HATA MESAJ KAPATMA",
+    "value": "[class='swal2-confirm swal2-styled']",
+    "type": "css"
+  },
+  {
+    "key": "ADINIZ",
+    "value": "[name='firstName']",
+    "type": "css"
+  },
+  {
+    "key": "SOYADINIZ",
+    "value": "[name='lastName']",
+    "type": "css"
+  },
+  {
+    "key": "MAILINIZ",
+    "value": "[name='eMail']",
+    "type": "css"
+  },
+  {
+    "key": "SIFRE",
+    "value": "[class='textbox js-input-password']",
+    "type": "css"
+  },
+  {
+    "key": "UYELIK SOZLESMESI",
+    "value": "(//span[@class='control-indicator'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "AYDINLATMA METNI",
+    "value": "(//span[@class='control-indicator'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "ADRESLERIM",
+    "value": "(//a[@class='fs-2'])[9]",
+    "type": "xpath"
+  },
+  {
+    "key": "ADRESLERIM ALANI",
+    "value": "[class='breadcrumb-item active']",
+    "type": "css"
+  },
+  {
+    "key": "YENI ADRES EKLE",
+    "value": "(//a[@rel='modal:open'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ADRES EKLEME ALANI",
+    "value": "[class='heading js-class-heading']",
+    "type": "css"
+  },
+  {
+    "key": "ADRES BILGI BUTONU",
+    "value": "[class='address-container-change address-manuel-form']",
+    "type": "css"
+  },
+  {
+    "key": "FATURA ALANI",
+    "value": "[class='heading thin']",
+    "type": "css"
+  },
+  {
+    "key": "KURUMSAL",
+    "value": "(//span[@class='control-indicator'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "ADRES BASLIGI",
+    "value": "topic",
+    "type": "id"
+  },
+  {
+    "key": "SEHIR",
+    "value": "city",
+    "type": "id"
+  },
+  {
+    "key": "ILCE",
+    "value": "district",
+    "type": "id"
+  },
+  {
+    "key": "MAHALLE",
+    "value": "state",
+    "type": "id"
+  },
+  {
+    "key": "TESLIMAT ADRESI",
+    "value": "addressdetail",
+    "type": "id"
+  },
+  {
+    "key": "BINA NO",
+    "value": "buildNumber",
+    "type": "id"
+  },
+  {
+    "key": "KAT NO",
+    "value": "floorNumber",
+    "type": "id"
+  },{
+  "key": "DAIRE NO",
+  "value": "number",
+  "type": "id"
+},
+  {
+    "key": "POSTA KODU",
+    "value": "zipcode",
+    "type": "id"
+  },
+  {
+    "key": "TELEFON",
+    "value": "gsm",
+    "type": "id"
+  },
+  {
+    "key": "VERGI NO",
+    "value": "taxid",
+    "type": "id"
+  },
+  {
+    "key": "VERGI DAIRE",
+    "value": "taxoffice",
+    "type": "id"
+  },
+  {
+    "key": "ADRES LİSTESİ",
+    "value": "//div[@class='addressCard mb-20 js-address-card ']",
+    "type": "xpath"
+  },
+  {
+    "key": "ADRESİ KAYDET",
+    "value": "[class='actionBtn navy']",
+    "type": "css"
+  },
+  {
+    "key": "ADRES HATASI",
+    "value": "topic-error",
+    "type": "id"
+  },
+  {
+    "key": "ŞEHİR HATASI",
+    "value": "city-error",
+    "type": "id"
+  },
+  {
+    "key": "İLÇE HATASI",
+    "value": "district-error",
+    "type": "id"
+  },
+  {
+    "key": "MAHALLE HATASI",
+    "value": "state-error",
+    "type": "id"
+  },
+  {
+    "key": "TESLİMAT ADRESİ HATASI",
+    "value": "addressdetail-error",
+    "type": "id"
+  },
+  {
+    "key": "TELEFON HATASI",
+    "value": "gsm-error",
+    "type": "id"
+  },
+  {
+    "key": "ÖDEME SAYFASI DEVAM ET BUTONU",
+    "value": "[class='actionBtn btnPaymentContinue']",
+    "type": "css"
+  },
+  {
+    "key": "KARTIN SAHİBİ",
+    "value": "CardholderName",
+    "type": "id"
+  },
+  {
+    "key": "ÖDEME HATASI",
+    "value": "[class='notifyMessage']",
+    "type": "css"
+  },
+  {
+    "key": "ÖDEME HATA POPUP KAPATMA",
+    "value": "[class='close-modal ']",
+    "type": "css"
+  },
+  {
+    "key": "KART NUMARASI",
+    "value": "CardNumber",
+    "type": "id"
+  },
+  {
+    "key": "SKT AY",
+    "value": "ExpireMonth",
+    "type": "id"
+  },
+  {
+    "key": "SKT YIL",
+    "value": "ExpireYear",
+    "type": "id"
+  },
+  {
+    "key": "CVV",
+    "value": "CardCode",
+    "type": "id"
+  },
+  {
+    "key": "TAKSİT",
+    "value": "(//span[@class='control-indicator'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "ÇIKIŞ YAP BUTONU",
+    "value": "(//a[@class='fs-2'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ANA SAYFA SEPETİM BUTONU",
+    "value": "//a[@class='font-weight-bold dr-flex']",
+    "type": "xpath"
+  },
+  {
+    "key": "SEPETE GİT POPUP",
+    "value": "//a[@class='btn radius-6 d-block text-center py-2 bg-c2 text-c255 fs-5 font-weight-600']",
+    "type": "xpath"
+  },
+  {
+    "key": "SİPARİŞ ÖZETİ ALANI",
+    "value": "//div[@class='pageHeader']",
+    "type": "xpath"
+  },
+  {
+    "key": "GERİ İKONU",
+    "value": "//img[@src='/Themes/DR/Content/NewTheme/images/payment/dr-logo.svg']",
+    "type": "xpath"
+  },
+  {
+    "key": "KİTAP ADI",
+    "value": "[class='fs-7 mb-0']",
+    "type": "css"
+  }
+
+
+
+
+]

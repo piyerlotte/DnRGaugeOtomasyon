@@ -1,0 +1,69 @@
+# ÜYE OL BUTONUNA TIKLANIR
+*"ANA SAYFA GIRIS YAP BUTONU" lokasyonuna fare hareketi
+*"UYE OL BUTONU" elementine tıklama
+
+#ÜYE KAYIT SAYFASI KONTROL EDİLİR
+*Şuanki URL "https://www.dr.com.tr/register" değerini içeriyor mu kontrol et
+*"UYE OL ALANI" alanında " ÜYE OLUN " elementi görünüyor mu?
+
+#KAYIT SAYFASINDAKİ ÜYE OL BUTONUNA TIKLANIR
+*"UYE OL POPUP BUTONU" elementine tıklama
+
+#KAYIT SAYFASI HATA MESAJI 1 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Lütfen Adınızı Giriniz!" elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#ADINIZ ALANI DOLDURULUR
+*"ADINIZ" alanına "Test" bilgisi yazdırma
+
+#KAYIT SAYFASI HATA MESAJI 2 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Lütfen Soyadınızı Giriniz!" elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#SOYADINIZ BÖLÜMÜN DOLDURULUR
+*"SOYADINIZ" alanına "Test" bilgisi yazdırma
+
+#KAYIT SAYFASI HATA MESAJI 3 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Lütfen e-posta adresinizi giriniz!" elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#E POSTA ALANI DOLDURULUR
+*"MAILINIZ" alanına "xxxxxx@gmail.com" bilgisi yazdırma
+
+#KAYIT SAYFASI HATA MESAJI 4 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Şifrenizi girmelisiniz!" elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#ŞİFRE ALANI DOLDURULUR
+*"SIFRE" alanına "Sarahwalker1" bilgisi yazdırma
+
+#KAYIT SAYFASI HATA MESAJI 5 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Üyelik sözleşmesini onaylamalısınız!" elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#ÜYELİK SÖZLEŞMESİ BUTONUNA TIKLANIR
+*"UYELIK SOZLESMESI" elementine tıklama
+
+#KAYIT SAYFASI HATA MESAJI 6 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Aydınlatma metnini onaylamalısınız!" elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#GEÇERSİZ E POSTA GİRİLİR
+*"MAILINIZ" alanına "asdasd" bilgisi yazdırma
+
+#KAYIT SAYFASI HATA MESAJI 7 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Geçerli bir e-posta adresi girmelisiniz!" elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#6 KARAKTERDEN KISA ŞİFRE GİRİLİR
+*"SIFRE" alanına "asdfg" bilgisi yazdırma
+
+#KAYIT SAYFASI HATA MESAJI 8 KONTROL EDİLİR
+*"HATA MESAJI" alanında "Şifreniz minimum 6 karakter olmalı en az 1 rakam ve büyük veya küçük harf içermelidir." elementi görünüyor mu?
+*"HATA MESAJ KAPATMA" elementine tıklama
+
+#6 KARAKTERDEN UZUN ANCAK RAKAM İÇERMEYEN ŞİFRE GİRİLİR
+*"SIFRE" alanına "asdfghj" bilgisi yazdırma
+
+#AYDINLATMA METNİ BUTONUNA TIKLANIR
+*"AYDINLATMA METNI" elementine tıklama

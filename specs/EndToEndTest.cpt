@@ -1,0 +1,16 @@
+# ANA SAYFADAN SEPETE GİDİLİYOR
+*"ANA SAYFA SEPETİM BUTONU" elementine tıklama
+*"SEPETE GİT POPUP" elementine tıklama
+
+#SİPARİŞ ÖZET SAYFASI KONTROL EDİLİYOR
+*Şuanki URL "https://www.dr.com.tr/siparis-ozet" değerini içeriyor mu kontrol et
+*"SİPARİŞ ÖZETİ ALANI" alanında " Sipariş Özeti " elementi görünüyor mu?
+
+#SİTEDE GERİ GİDİLİYOR
+*"GERİ İKONU" elementine tıklama
+
+#ÖNCEKİ SAYFA KONTROL EDİLİYOR
+*Şuanki URL "https://www.dr.com.tr/sepetim" değerini içeriyor mu kontrol et
+
+//#SATIN ALMA SAYFASI KONTROL EDİLİYOR
+//*Şuanki URL "https://www.dr.com.tr/odeme-secim" değerini içeriyor mu kontrol et

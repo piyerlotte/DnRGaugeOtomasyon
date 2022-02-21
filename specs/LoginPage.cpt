@@ -1,0 +1,47 @@
+#SİTE AÇILIYOR
+*"https://www.dr.com.tr/" adresine git
+
+#SİTE KONTROL EDİLİYOR
+*Element var mı kontrol et "D&R YAZISI"
+//*"D&R YAZISI" alanında "D&R" elementi görünüyor mu?
+//* "1" saniye bekle
+
+#GİRİŞ YAP BUTONUNA TIKLANIYOR
+*"ANA SAYFA GIRIS YAP BUTONU" lokasyonuna fare hareketi
+*"ANA SAYFA GIRIS YAP POPUP BUTONU" elementine tıklama
+
+#KULLANICI BİLGİLERİ DOĞRU DOLDURULUYOR
+*"MAIL ALANI" alanına "frost.test12@gmail.com" bilgisi yazdırma
+*"SIFRE ALANI" alanına "Sarahwalker1" bilgisi yazdırma
+
+#KULLANICI BİLGİLERİ KONTROL EDİLİYOR
+*"MAIL ALANI" alanında "value" değeri "frost.test12@gmail.com" değeri ile aynı mı
+*"SIFRE ALANI" alanında "value" değeri "Sarahwalker1" değeri ile aynı mı
+
+#GİRİŞ SAYFASINDAKİ GİRİŞ YAP BUTONUNA TIKLANIYOR
+*"GIRIS SAYFASI GIRIS YAP BUTONU" elementine tıklama
+
+#LOGİN İŞLEMİ KONTROL EDİLİYOR
+*Element var mı kontrol et "HESABIM"
+//*"HESABIM" alanında " Hesabım " elementi görünüyor mu?
+
+#MAİL DOĞRU ŞİFRE YANLIŞ GİRİLİYOR
+*"MAIL ALANI" alanına "frost.test12@gmail.com" bilgisi yazdırma
+*"SIFRE ALANI" alanına "Qwerty1" bilgisi yazdırma
+
+#LOGİN SAYFASI HATA MESAJI 1 KONTROL EDİLİYOR
+*"HATA MESAJI" alanında "Hatalı e-posta adresi ya da şifre girdiniz." elementi görünüyor mu?
+
+#MAİL YANLIŞ ŞİFRE DOĞRU GİRİLİYOR
+*"MAIL ALANI" alanına "frost.test@gmail.com" bilgisi yazdırma
+*"SIFRE ALANI" alanına "Sarahwalker1" bilgisi yazdırma
+
+#LOGİN SAYFASI HATA MESAJI 2 KONTROL EDİLİYOR
+*"HATA MESAJI" alanında "E-posta adresi girmelisiniz!" elementi görünüyor mu?
+
+#ÇIKIŞ YAP BUTONUNA TIKLANIYOR
+*"HESABIM" lokasyonuna fare hareketi
+*"ÇIKIŞ YAP BUTONU" elementine tıklama
+
+#LOGOUT İŞLEMİ KONTROL EDİLİYOR
+*"ANA SAYFA GIRIS YAP BUTONU" alanında " Giriş Yap " elementi görünüyor mu?

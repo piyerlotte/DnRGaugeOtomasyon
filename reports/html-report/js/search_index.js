@@ -1,0 +1,1 @@
+var index = {"Tags":{"BasariliLogin":["specs/LoginPage.html"]},"Specs":{"GİRİŞ EKRANI SENARYOLARI":["specs/LoginPage.html"]}};

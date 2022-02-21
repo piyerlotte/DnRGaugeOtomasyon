@@ -1,0 +1,70 @@
+# ADRESLERİM BUTONUNA TIKLANIYOR
+* "HESABIM" lokasyonuna fare hareketi
+* "ADRESLERIM" elementine tıklama
+
+#ADRESLERİM SAYFASI KONTROL EDİLİYOR
+*Şuanki URL "https://www.dr.com.tr/adreslerim" değerini içeriyor mu kontrol et
+*Element var mı kontrol et "ADRESLERIM ALANI"
+//* "ADRESLERIM ALANI" alanında "Adreslerim" elementi görünüyor mu?
+
+#YENİ ADRES EKLEME BUTONUNA TIKLANIYOR
+*"YENI ADRES EKLE" elementine tıklama
+
+#ADRES EKLEME EKRANI KONTROL EDİLİYOR
+*Element var mı kontrol et "ADRES EKLEME ALANI"
+//*"ADRES EKLEME ALANI" alanında "Yeni Adres Ekle" elementi görünüyor mu?
+
+#ADRES BİLGİLERİ BUTONUNA TIKLANIYOR
+*"ADRES BILGI BUTONU" elementine tıklama
+
+#ADRES EKRANI KONTROL EDİLİYOR
+*Element var mı kontrol et "FATURA ALANI"
+//*"FATURA ALANI" alanında "Fatura Tipi" elementi görünüyor mu?
+
+#FATURA TİPİ SEÇİLİYOR
+*"KURUMSAL" elementine tıklama
+
+#ADRES BİLGİLERİ DOLDURULUYOR
+*"ADRES BASLIGI" alanına "Adres" bilgisi yazdırma
+*"2" saniye kadar bekle
+*"SEHIR" olarak comboboxdan bir değer seçilir
+*"ILCE" olarak comboboxdan bir değer seçilir
+*"MAHALLE" alanına "bir şey" bilgisi yazdırma
+*"TESLIMAT ADRESI" alanına "bir şey" bilgisi yazdırma
+*"BINA NO" alanına "123213" bilgisi yazdırma
+*"KAT NO" alanına "12" bilgisi yazdırma
+*"DAIRE NO" alanına "12" bilgisi yazdırma
+*"POSTA KODU" alanına "12000" bilgisi yazdırma
+*"TELEFON" alanına "555 555 55 55" bilgisi yazdırma
+*"VERGI NO" alanına "11111111111" bilgisi yazdırma
+*"VERGI DAIRE" alanına "Adres" bilgisi yazdırma
+
+#ADRES BİLGİLERİ KONTROL EDİLİYOR
+*"ADRES BASLIGI" alanında "value" değeri "Adres" değeri ile aynı mı
+*"MAHALLE" alanında "value" değeri "bir şey" değeri ile aynı mı
+*"TESLIMAT ADRESI" alanında "value" değeri "bir şey" değeri ile aynı mı
+*"BINA NO" alanında "value" değeri "123213" değeri ile aynı mı
+*"KAT NO" alanında "value" değeri "12" değeri ile aynı mı
+*"DAIRE NO" alanında "value" değeri "12" değeri ile aynı mı
+*"POSTA KODU" alanında "value" değeri "12000" değeri ile aynı mı
+*"TELEFON" alanında "value" değeri "555 555 55 55" değeri ile aynı mı
+*"VERGI NO" alanında "value" değeri "11111111111" değeri ile aynı mı
+*"VERGI DAIRE" alanında "value" değeri "Adres" değeri ile aynı mı
+
+#KAYDET BUTONUNA TIKLANIYOR
+*"ADRESİ KAYDET" elementine tıklama
+
+#KAYITLI ADRES SAYISI KONTROL EDİLİYOR
+*"ADRES LİSTESİ" dizisinin eleman sayısı
+
+#KAYITLI ADRES SAYILARI KARŞILAŞTIRILIYOR
+*"2" saniye kadar bekle
+*"ADRES LİSTESİ" dizisi eleman sayısı karşılaştırma
+
+#ADRES SAYFASI HATA MESAJLARI KONTROL EDİLİYOR
+*"ADRES HATASI" alanında "Lütfen Adres Başlığı Giriniz." elementi görünüyor mu?
+*"ŞEHİR HATASI" alanında "Lütfen Şehir Seçiniz." elementi görünüyor mu?
+*"İLÇE HATASI" alanında "Lütfen İlçe Seçiniz." elementi görünüyor mu?
+*"MAHALLE HATASI" alanında "Lütfen Mahalle / Köy Giriniz" elementi görünüyor mu?
+*"TESLİMAT ADRESİ HATASI" alanında "Lütfen Teslimat Adresi Giriniz." elementi görünüyor mu?
+*"TELEFON HATASI" alanında "Lütfen Cep Telefonu No Giriniz" elementi görünüyor mu?

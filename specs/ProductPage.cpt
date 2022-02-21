@@ -1,0 +1,49 @@
+# GEROGE ORWELL ARAMASI YAPILIYOR
+*"ARAMA BUTONU" alanına "George Orwell" bilgisi yazdırma
+*Elemente ENTER keyi yolla "ARAMA BUTONU"
+
+#ÜRÜNLER SAYFASI KONTROL EDİLİYOR
+*"ARAMA BUTONU" alanında "value" değeri "George Orwell" değeri ile aynı mı
+*"URUN BASLIGI" alanında "'George Orwell' için arama sonuçları" elementi görünüyor mu?
+
+
+# NEGATİF ARAMA YAPILIYOR
+*"ARAMA BUTONU" alanına "qwerty123" bilgisi yazdırma
+*Elemente ENTER keyi yolla "ARAMA BUTONU"
+
+# ARAMA SAYFASI HATA MESAJI KONTROL EDİLİYOR
+*"HATA BASLIGI" alanında "'qwerty123' aradığınız kriterlere göre ürün bulunamadı..." elementi görünüyor mu?
+
+#RASTGELE ÜRÜN SEÇİLİYOR
+*"1" saniye kadar bekle
+*"ARAMA BUTONU" alanına "George Orwell" bilgisi yazdırma
+*"ARAMA BUTONU" alanında "value" değeri "George Orwell" değeri ile aynı mı
+*Elemente ENTER keyi yolla "ARAMA BUTONU"
+*"1" saniye kadar bekle
+*"URUN LISTESI"rastgele ürün seç
+
+#SEÇİLEN ÜRÜN KONTROL EDİLİYOR
+*Element var mı kontrol et "KİTAP ADI"
+//*"URUN DETAY" alanında "Yazar:" elementi görünüyor mu?
+
+#SEÇİLEN ÜRÜN SEPETE EKLENİYOR
+*"SEPETE EKLE" elementine tıklama
+
+#SEPETE EKLEME İŞLEMİ KONTROL EDİLİYOR
+*Element var mı kontrol et "SEPETE EKLEME MESAJI"
+//*"SEPETE EKLEME MESAJI" alanında "Ürün alışveriş sepetinize eklendi." elementi görünüyor mu?
+
+#SEPETE GİDİLİYOR
+*"SEPETE GIT" elementine tıklama
+
+#SEPET SAYFASI KONTROL EDİLİYOR
+*Şuanki URL "https://www.dr.com.tr/Sepetim" değerini içeriyor mu kontrol et
+*Element var mı kontrol et "SEPET BASLIGI"
+//*"SEPET BASLIGI" alanında " Sepetim " elementi görünüyor mu?
+
+#SATIN AL BUTONUNA TIKLANIYOR
+*"SATIN AL" elementine tıklama
+
+#ADRES SAYFASI KONTROL EDİLİYOR
+*Şuanki URL "https://www.dr.com.tr/teslimat" değerini içeriyor mu kontrol et
+*"ADRES ALANI" alanında " Adres Bilgileri " elementi görünüyor mu?

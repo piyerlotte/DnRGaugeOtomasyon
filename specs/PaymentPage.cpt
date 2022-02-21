@@ -1,0 +1,62 @@
+# ÖDEME SAYFASINDA DEVAM ET BUTONUNA BASILIYOR
+*"ÖDEME SAYFASI DEVAM ET BUTONU" elementine tıklama
+
+#ÖDEME SAYFASI HATA MESAJI 1 KONTROL EDİLİYOR
+*"ÖDEME HATASI" alanında "Lütfen kart sahibinin adını giriniz." elementi görünüyor mu?
+*"ÖDEME HATA POPUP KAPATMA" elementine tıklama
+
+#KART ÜZEİRNDEKİ İSİM DOLDURULUYOR
+*"KARTIN SAHİBİ" alanına "Test test" bilgisi yazdırma
+
+#KART ÜZERİNDEKİ İSİM KONTROL EDİLİYOR
+*"KARTIN SAHİBİ" alanında "value" değeri "Test test" değeri ile aynı mı
+
+#ÖDEME SAYFASI HATA MESAJI 2 KONTROL EDİLİYOR
+*"ÖDEME HATASI" alanında "Lütfen kart numarasını giriniz." elementi görünüyor mu?
+*"ÖDEME HATA POPUP KAPATMA" elementine tıklama
+
+#KART NUMARASI DOLDURULUYOR
+*"KART NUMARASI" alanına "1111111111111111" bilgisi yazdırma
+
+#KART NUMARASI KONTROL EDİLİYOR
+*"KART NUMARASI" alanında "value" değeri "1111111111111111" değeri ile aynı mı
+
+#ÖDEME SAYFASI HATA MESAJI 3 KONTROL EDİLİYOR
+*"ÖDEME HATASI" alanında "Lütfen son kullanım tarihi ayı giriniz giriniz." elementi görünüyor mu?
+*"ÖDEME HATA POPUP KAPATMA" elementine tıklama
+
+#SON KULLANMA TARİHİ AY DOLDURULUYOR
+*"SKT AY" olarak comboboxdan bir değer seçilir
+
+#ÖDEME SAYFASI HATA MESAJI 4 KONTROL EDİLİYOR
+*"ÖDEME HATASI" alanında "Lütfen son kullanım tarihi yılı giriniz giriniz." elementi görünüyor mu?
+*"ÖDEME HATA POPUP KAPATMA" elementine tıklama
+
+#SON KULLANMA TARİHİ YIL DOLDURULUYOR
+*"SKT YIL" olarak comboboxdan bir değer seçilir
+
+#ÖDEME SAYFASI HATA MESAJI 5 KONTROL EDİLİYOR
+*"ÖDEME HATASI" alanında "Lütfen CVV no giriniz." elementi görünüyor mu?
+*"ÖDEME HATA POPUP KAPATMA" elementine tıklama
+
+#CVV ALANI DOLDURULUYOR
+*"CVV" alanına "111" bilgisi yazdırma
+
+#CVV ALANI KONTROL EDİLİYOR
+*"CVV" alanında "value" değeri "111" değeri ile aynı mı
+
+#ÖDEME SAYFASI HATA MESAJI 6 KONTROL EDİLİYOR
+*"ÖDEME HATASI" alanında "Lütfen taksit seçiniz." elementi görünüyor mu?
+*"ÖDEME HATA POPUP KAPATMA" elementine tıklama
+
+#TAKSİT SEÇENEĞİ SEÇİLİYOR
+*"TAKSİT" elementine tıklama
+
+#KART NUMARASI EKSİK DOLDURULUYOR
+*"KART NUMARASI" alanına "111111111" bilgisi yazdırma
+
+#CVV EKSİK DOLDURULUYOR
+*"CVV" alanına "11" bilgisi yazdırma
+
+#CVV FAZLA DOLDURULUYOR
+*"CVV" alanına "1111" bilgisi yazdırma
